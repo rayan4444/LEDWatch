@@ -1,0 +1,16 @@
+
+### .gitignore template for Altium and Eagle designs ###
+
+### General ###
+*.zip
+**Release/
+
+### Eagle ###
+# schematic history & backup
+**/**.s#*
+# board history & backup
+**/**.b#*
+# scripts and script outputs
+**/**.scr
+# cam settings
+**/**.cam
